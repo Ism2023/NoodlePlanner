@@ -1,0 +1,26 @@
+{
+  "name": "noodle-planner.e2-e.runner",
+  "version": "1.0.0",
+  "description": "NoodlePlanner.E2E.Runner",
+  "main": "e2eConfig.js",
+  "scripts": {
+    "start": "tsc",
+    "postinstall": "typings install",
+    "tsc": "tsc",
+    "typings": "typings"
+  },
+  "devDependencies": {
+    "https": "^1.0.0",
+    "jasmine-reporters": "^2.2.0",
+    "jasmine-spec-reporter": "^2.5.0",
+    "msnodesqlv8": "^0.2.8",
+    "mssql": "^3.3.0",
+    "protractor": "^4.0.0",
+    "protractor-jasmine2-html-reporter": "0.0.6",
+    "request": "^2.78.0",
+    "selenium-webdriver": "^2.53.3",
+    "ssl-root-cas": "^1.2.3",
+    "typescript": "^1.8.10",
+    "typings": "^1.0.4"
+  }
+}
